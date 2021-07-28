@@ -14,20 +14,7 @@ pipeline {
    }
    
   }
-stage('test'){
-   steps{
-      mvn clean test
-   }
-
-  }
-stage('package'){
-   steps{
-      mvn package -DskipTests
-   }
-
   }
 
  }
 
-
-}
